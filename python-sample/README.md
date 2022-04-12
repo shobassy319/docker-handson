@@ -3,6 +3,7 @@
 Please inspect `Dockerfile` and apply best practices.   
 If you are new with _Docker_ and _Python_, see and go through [this page](https://docs.docker.com/language/python/build-images/) by docker official. 
 
+Read this page in other language: [_English_](https://github.com/AvintonCode/docker-handson/blob/main/python-sample/README.md), [_日本語_](https://github.com/AvintonCode/docker-handson/blob/main/python-sample/README-ja.md)
 
 ## How to build and run the application 
 1. Build container image 

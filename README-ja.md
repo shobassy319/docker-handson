@@ -1,12 +1,15 @@
 # docker-handson 
 サンプルDockerfileとクイズを通して、Dockerのベストプラクティスを学ぶ。
 
-このレポジトリではいくつかの欠陥のあるDockerfileがあります。
-DockerfileはシンプルなHTTPサーバーアプリケーションを実装しています。
+このレポジトリではいくつかの欠陥のあるDockerfileがあります。  
+DockerfileはシンプルなHTTPサーバーアプリケーションを実装しています。  
 Dockerfileを調べて修正することで、Dockerのベストプラクティスを学ぶことが目的です。
 
+Read this page in other language: [_English_](https://github.com/AvintonCode/docker-handson/blob/main/README.md), [_日本語_](https://github.com/AvintonCode/docker-handson/blob/main/README-ja.md)
+
+
 ## 言語
-現在は2つの言語をサポートしています: Go または Python
+現在は2つの言語をサポートしています: Go または Python  
 クイズに対しては各言語の知識が少しだけ必要になりますが、修正が必要なファイルはDockerfileのみです。
 
 ## 必要なもの 
@@ -19,7 +22,7 @@ Dockerfileを調べて修正することで、Dockerのベストプラクティ�
 git clone https://github.com/AvintonCode/docker-handson.git
 ```
 
-2. `go-sample` または `python-sample` ディレクトリからそれぞれの`Dockerfile`を見つけてください。
+2. `go-sample` または `python-sample` ディレクトリからそれぞれの`Dockerfile`を見つけてください。  
 各ディレクトリ内のREADMEにイメージのビルド方法とタスクが記載されています。
 
 ## ヒント

@@ -15,6 +15,8 @@ But you only have to fix `Dockerfile`.
 - Docker 
 - Any container scanning tool (e.g. [Trivy](https://github.com/aquasecurity/trivy) or [`docker scan`](https://docs.docker.com/engine/scan/) )
 
+Read this page in other language: [_English_](https://github.com/AvintonCode/docker-handson/blob/main/README.md), [_日本語_](https://github.com/AvintonCode/docker-handson/blob/main/README-ja.md)
+
 ## Getting started 
 1. Clone this repo 
 ```

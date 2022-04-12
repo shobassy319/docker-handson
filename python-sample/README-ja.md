@@ -1,7 +1,10 @@
-# Go simple HTTP server 
+# Python simple HTTP server 
 
-Dockerfileを確認してベストプラクティスを適用してください。
-DockerとGoを使用するのが初めての方は[こちらのチュートリアル](https://docs.docker.com/language/python/build-images/)を確認することをお勧めします。
+Dockerfileを確認してベストプラクティスを適用してください。  
+DockerとPythonを使用するのが初めての方は[こちらのチュートリアル](https://docs.docker.com/language/python/build-images/)を確認することをお勧めします。  
+
+Read this page in other language: [_English_](https://github.com/AvintonCode/docker-handson/blob/main/python-sample/README.md), [_日本語_](https://github.com/AvintonCode/docker-handson/blob/main/python-sample/README-ja.md)
+
 
 ## コンテナのビルドと実行
 1. コンテナイメージのビルド
@@ -45,6 +48,6 @@ root以外のユーザーでコンテナプロセスが開始されるように�
 > 注: 修正がまだ利用可能ではない脆弱性は無視できます。
 
 ### 4. ビルド時間の改善
-`app.py`を編集し、再度`docker build`を行うと`pip3 install`も再度実行されます。
-`pip3 install`は`requirements.txt`の変更時のみ実行されれば十分です。
+`app.py`を編集し、再度`docker build`を行うと`pip3 install`も再度実行されます。  
+`pip3 install`は`requirements.txt`の変更時のみ実行されれば十分です。  
 Dockerfileを修正してビルド時間を改善してください。

@@ -1,7 +1,9 @@
 # Go simple HTTP server 
 
 Please inspect `Dockerfile` and apply best practices.   
-If you are new with _Docker_ and _Go_, see and go through [this page](https://docs.docker.com/language/golang/build-images/) by docker official. 
+If you are new with _Docker_ and _Go_, see and go through [this page](https://docs.docker.com/language/golang/build-images/) by docker official.
+
+Read this page in other language: [_English_](https://github.com/AvintonCode/docker-handson/blob/main/go-sample/README.md), [_日本語_](https://github.com/AvintonCode/docker-handson/blob/main/go-sample/README-ja.md)
 
 ## How to build and run the application 
 1. Build container image 
