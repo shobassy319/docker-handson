@@ -4,6 +4,8 @@ Sample Dockerfiles and quizzes for learning docker best practices.
 This repository provides some sample (compromised) dockerfile for a simple HTTP server application.  
 You can learn some best practices by inspecting and fixing the `Dockerfile`. 
 
+Read this page in other language: [_English_](https://github.com/AvintonCode/docker-handson/blob/main/README.md), [_日本語_](https://github.com/AvintonCode/docker-handson/blob/main/README-ja.md)
+
 ## Tasks 
 
 You can choose your preferred programming language: Go or Python.  
@@ -14,8 +16,6 @@ But you only have to fix `Dockerfile`.
 ## Pre-requisities 
 - Docker 
 - Any container scanning tool (e.g. [Trivy](https://github.com/aquasecurity/trivy) or [`docker scan`](https://docs.docker.com/engine/scan/) )
-
-Read this page in other language: [_English_](https://github.com/AvintonCode/docker-handson/blob/main/README.md), [_日本語_](https://github.com/AvintonCode/docker-handson/blob/main/README-ja.md)
 
 ## Getting started 
 1. Clone this repo 
