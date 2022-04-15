@@ -41,6 +41,8 @@ Resolve all of the vulnerabilities.
 > Note: you can ignore some vulnerabilities for which the fix is not yet available. 
 
 ### 4. Improve build time 
+`Dockerfile` or `README.md` are also copied to the container image. Fix this problem so that they will not be included in the image.  
+
 When you edit the `app.py` file, the docker build will run `pip3 install` again.  
 `pip3 install` should be triggered only when `requirements.txt` has been updated.  
 Fix Dockerfile to improve the build speed.  

@@ -48,6 +48,9 @@ root以外のユーザーでコンテナプロセスが開始されるように�
 > 注: 修正がまだ利用可能ではない脆弱性は無視できます。
 
 ### 4. ビルド時間の改善
-`app.py`を編集し、再度`docker build`を行うと`pip3 install`も再度実行されます。  
+アプリケーションに不要なDockerfileやREADMEまでビルド時にコピーされています。それらがイメージ内に含まれないように修正してください。
+
+また、`app.py`を編集し、再度`docker build`を行うと`pip3 install`も再度実行されます。  
 `pip3 install`は`requirements.txt`の変更時のみ実行されれば十分です。  
 Dockerfileを修正してビルド時間を改善してください。
+

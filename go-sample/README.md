@@ -41,6 +41,8 @@ Resolve all of the vulnerabilities.
 > Note: you can ignore some vulnerabilities for which the fix is not yet available. 
 
 ### 4. Improve build time 
+`Dockerfile` or `README.md` are also copied to the container image. Fix this problem so that they will not be included in the image.  
+
 When you edit the `server.go` file, the docker build will run `go mod download` again.  
 `go mod download` should be triggered only when `go.mod` has been updated.  
 Fix Dockerfile to improve the build speed.  
