@@ -24,8 +24,8 @@ docker run --rm --name python-simple-app -p 8000:8000 -d python-simple:v01
 
 3. アプリケーションの稼働を確認: `/` と `/ping`のエンドポイントへリクエスト
 ```
-curl -X GET http://localhost:8080/
-curl -X GET http://localhost:8080/ping
+curl -X GET http://localhost:8000/
+curl -X GET http://localhost:8000/ping
 ```
 
 4. コンテナの停止
